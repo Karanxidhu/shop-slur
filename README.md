@@ -18,7 +18,7 @@ ShopSlur is an application designed for buying and selling various products onli
 
 
 ### Backend
-1. Before starting the backend, ensure to add your MongoDB Atlas connection string in `ShopSlur/server/db.js`S.
+1. Before starting the backend, ensure to add your MongoDB Atlas connection string in `ShopSlur/server/db.js`.
 
 2. Open a terminal, go to the server directory:
 `cd ShopSlur/server`
@@ -29,9 +29,30 @@ ShopSlur is an application designed for buying and selling various products onli
 4. Run the backend server:
 `nodemon index.js`
 
-### Login
+### Login Page
 
-![Login Page](https://github.com/Karanxidhu/shop-slur/images/1.png?raw=true)
+<img src="https://github.com/Karanxidhu/shop-slur/blob/main/images/1.png" alt="drawing" width="800"/>
+<hr/>
+
+### Sign up Page
+
+<img src="https://github.com/Karanxidhu/shop-slur/blob/main/images/2.png" alt="drawing" width="800"/>
+<hr/>
+
+### Shop Dashboard 
+
+<img src="https://github.com/Karanxidhu/shop-slur/blob/main/images/3.png" alt="drawing" width="800"/>
+<hr/>
+
+### Product Upload Page
+
+<img src="https://github.com/Karanxidhu/shop-slur/blob/main/images/4.png" alt="drawing" width="800"/>
+<hr/>
+
+### Cart 
+
+<img src="https://github.com/Karanxidhu/shop-slur/blob/main/images/5.png" alt="drawing" width="800"/>
+<hr/>
 
 ## Contributing
 
