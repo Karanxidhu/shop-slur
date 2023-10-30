@@ -29,6 +29,10 @@ ShopSlur is an application designed for buying and selling various products onli
 4. Run the backend server:
 `nodemon index.js`
 
+### Login
+
+![Login Page](https://github.com/Karanxidhu/shop-slur/images/1.png?raw=true)
+
 ## Contributing
 
 Contributions are welcome to enhance this project. Feel free to fork, make modifications, and submit pull requests. Your support will help evolve this application for better online commerce experiences.
