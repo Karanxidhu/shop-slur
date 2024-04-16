@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoURI = "ADD YOU CONNECTION STRING"
+const mongoURI = "mongodb+srv://shares-messages:shares-messages@karanxidhu.glotklc.mongodb.net/?retryWrites=true&w=majority"
 
 const connectToMongo = async()=>{
     await mongoose.connect(mongoURI, ()=>{
