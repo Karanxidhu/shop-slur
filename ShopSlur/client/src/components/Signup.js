@@ -19,7 +19,7 @@ const Signup = () => {
   const handleSign = async(e)=>{
     e.preventDefault();
     // console.log(form)
-    const reponse = await fetch('http://localhost:5000/api/auth/createuser', {
+    const reponse = await fetch('https://shop-slur-backend.vercel.app/api/auth/createuser', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
