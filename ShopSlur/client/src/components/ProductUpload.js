@@ -45,7 +45,7 @@ const ProductUpload = () => {
   const formSubmit = async()=>{
     try {
       console.log(details)
-      const response2 = await fetch('http://localhost:5000/api/products/addproduct',{
+      const response2 = await fetch('https://shop-slur-backend.vercel.app/api/products/addproduct',{
         method: "POST",
         headers: {
           'Content-Type': 'application/json',
