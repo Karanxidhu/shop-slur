@@ -11,7 +11,7 @@ const Shop = () => {
     // eslint-disable-next-line
 }, [])
   const fetchItems =async () => {
-    const response = await fetch('http://localhost:5000/api/products/fetchallproducts',{
+    const response = await fetch('https://shop-slur-backend.vercel.app/api/products/fetchallproducts',{
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
