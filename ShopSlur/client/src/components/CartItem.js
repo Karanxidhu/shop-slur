@@ -9,7 +9,7 @@ const CartItem = (props) => {
     const [product, setProduct] = useState({ name: '', desc: '', price: '', image: '' })
     const { p_id, quantity } = props
     const fetchData = async () => {
-        const response = await fetch(`http://localhost:5000/api/products/fetchproduct/${p_id}`)
+        const response = await fetch(`https://shop-slur-backend.vercel.app/api/products/fetchproduct/${p_id}`)
         const json = await response.json()
         setProduct({ name: json[0].title, desc: json[0].description, price: json[0].price, image: json[0].images[0] })
     }
@@ -27,7 +27,7 @@ const CartItem = (props) => {
         window.location.reload(false);
     }
     const handleplus = async()=>{
-        const response = await fetch(`http://localhost:5000/cart/addproduct/${p_id}`,{
+        const response = await fetch(`https://shop-slur-backend.vercel.app/cart/addproduct/${p_id}`,{
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
