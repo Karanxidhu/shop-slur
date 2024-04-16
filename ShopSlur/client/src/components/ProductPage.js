@@ -11,7 +11,7 @@ const ProductPage = () => {
   const initProduct = []
   const [productDetails, setProductDetails] = useState(initProduct)
   const addToCart = async()=>{
-    const response = await fetch(`http://localhost:5000/cart/addproduct/${id}`,{
+    const response = await fetch(`https://shop-slur-backend.vercel.app/cart/addproduct/${id}`,{
       method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
@@ -25,7 +25,7 @@ const ProductPage = () => {
 
   const fetchProduct = async () => {
     console.log('fetching product')
-    const response = await fetch(`http://localhost:5000/api/products/fetchproduct/${id}`)
+    const response = await fetch(`https://shop-slur-backend.vercel.app/api/products/fetchproduct/${id}`)
     const json = await response.json()
     setProductDetails(json[0])
   }
